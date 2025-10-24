@@ -52,7 +52,7 @@ do {
       userInput === questions[i].answer.toUpperCase()
     ) {
       score++;
-      console.log("Good!");
+      console.log(`Your answer was ${userInput}. That's correct!`);
     } else {
       console.log(`Wrong! The answer is ${questions[i].answer}`);
     }
