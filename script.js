@@ -54,7 +54,9 @@ do {
       score++;
       console.log(`Your answer was ${userInput}. That's correct!`);
     } else {
-      console.log(`Wrong! The answer is ${questions[i].answer}`);
+      console.log(
+        `Your answer was ${userInput}. That's wrong. The correct answer is ${questions[i].answer}`
+      );
     }
   }
   alert("Quiz completed! Kindly check the console for the result.");
